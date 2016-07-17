@@ -12,6 +12,8 @@ import {
   View
 } from 'react-native';
 
+import Counter from './app-src/android/temp'
+
 class roastr extends Component {
   render() {
     return (
@@ -25,6 +27,7 @@ class roastr extends Component {
         <Text style={styles.instructions}>
           Shake or press menu button for dev menu
         </Text>
+        <Counter />
       </View>
     );
   }
